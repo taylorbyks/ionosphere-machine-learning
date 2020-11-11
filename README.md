@@ -58,8 +58,6 @@ No MLP os parâmetros foram: Número de épocas de treino, taxa de aprendizagem 
 
 ​	Após a montagem da tabela, contendo todas as acurácias, foram feitos dois testes estatísticos. O primeiro, usando o Teste de Kruskal-Wallis com nível de confiança em 95%, foi feito para identificar se existe alguma diferença no desempenho dos algoritmos (independentemente de qual foi melhor ou pior).
 
-<img src="file:///tmp/lu60957cneqwv.tmp/lu60957cneqx8_tmp_d8c75df3a570a22c.png" alt="img" style="zoom:100%;" />
-
 O teste de Kruskal-Wallis mostrou que existe uma significativa diferença entre os classificadores. Rejeitando a hipótese Ho e confirmando que existe um classificador melhor. Após descobrir que existe um classificador melhor, foi feito o teste de Mann-Whitney com nível de confiança de 95% para descobrir qual o classificador com o melhor desempenho.
 
 Para esse teste os classificadores são comparados dois a dois.
@@ -90,8 +88,6 @@ Para esse teste os classificadores são comparados dois a dois.
 |  					20 				         |  					0.886364 				        |  					0.829545 				        |
 |  			**MÉDIA (DP)** 			|  			**0.888636 (0.02)** 			|  			**0.882386 (0.03)** 			|
 
-<img src="file:///tmp/lu60957cneqwv.tmp/lu60957cneqxu_tmp_33dc6090b22e181f.png" alt="img" style="zoom:100%;" />
-
 A diferença entre os classificadores não foi significativa. Portanto, aceita-se Ho.
 
 #### KNN x Naive Bayes
@@ -119,8 +115,6 @@ A diferença entre os classificadores não foi significativa. Portanto, aceita-s
 |  					19 				         |  					0.897727 				        |  					0.909091 				          |
 |  					20 				         |  					0.886364 				        |  					0.886363 				          |
 |  			**MÉDIA (DP)** 			|  			**0.888636 (0.02)** 			|  			**0.886932 (0.04)** 			|
-
-![img](file:///tmp/lu60957cneqwv.tmp/lu60957cneqxu_tmp_94dfd5ca28d0fd8f.png)
 
 A diferença entre os classificadores não foi significativa. Portanto, aceita-se Ho.
 
@@ -150,8 +144,6 @@ A diferença entre os classificadores não foi significativa. Portanto, aceita-s
 |  					20 				         |  					0.886364 				        |  					0.954545 				          |
 |  			**MÉDIA (DP)** 			|  			**0.888636 (0.02)** 			|  			**0.938636 (0.02)** 			|
 
-![img](file:///tmp/lu60957cneqwv.tmp/lu60957cneqxu_tmp_8bfc707ea378bfd4.png)
-
 A diferença entre os classificadores é significativa. Portanto, rejeita-se Ho
 
 #### KNN x MLP
@@ -179,7 +171,6 @@ A diferença entre os classificadores é significativa. Portanto, rejeita-se Ho
 |  					19 				         |  					0.897727 				        |  					0.875 				             |
 |  					20 				         |  					0.886364 				        |  					0.943181 				          |
 |  			**MÉDIA (DP)** 			|  			**0.888636 (0.02)** 			|  			**0.737499 (0.03)** 			|
-![img](file:///tmp/lu60957cneqwv.tmp/lu60957cneqxu_tmp_151e8c535470463.png)
 
 A diferença entre os classificadores é significativa. Portanto, rejeita-se Ho
 
@@ -209,8 +200,6 @@ A diferença entre os classificadores é significativa. Portanto, rejeita-se Ho
 |  					20 				         |  					0.829545 				        |  					0.886363 				          |
 |  				**MÉDIA (DP)** 				 |  			**0.882386 (0.03)** 			|  				**0.886932 (0.04)** 				 |
 
-![img](file:///tmp/lu60957cneqwv.tmp/lu60957cneqxu_tmp_525389dcaaccd68f.png)
-
 A diferença entre os classificadores não foi significativa. Portanto, aceita-se Ho.
 
 #### Árvore de decisão x SVM
@@ -238,8 +227,6 @@ A diferença entre os classificadores não foi significativa. Portanto, aceita-s
 |  					19 				         |  					0.909091 				        |  					0.920454 				          |
 |  					20 				         |  					0.829545 				        |  					0.954545 				          |
 |  			**MÉDIA (DP)** 			|  			**0.882386 (0.03)** 			|  			**0.938636 (0.02)** 			|
-
-![img](file:///tmp/lu60957cneqwv.tmp/lu60957cneqxu_tmp_d00f776b4fd19a32.png)
 
 A diferença entre os classificadores é significativa. Portanto, rejeita-se Ho.
 
@@ -269,8 +256,6 @@ A diferença entre os classificadores é significativa. Portanto, rejeita-se Ho.
 |  					20 				         |  					0.886364 				        |  					0.943181 				          |
 |  			**MÉDIA (DP)** 			|  			**0.888636 (0.02)** 			|  			**0.737499 (0.03)** 				|
 
-![img](file:///tmp/lu60957cneqwv.tmp/lu60957cneqxu_tmp_c95b0358e863308c.png)
-
 A diferença entre os classificadores é significativa. Portanto, rejeita-se Ho.
 
 #### Naive Bayes x SVM
@@ -298,8 +283,6 @@ A diferença entre os classificadores é significativa. Portanto, rejeita-se Ho.
 |  					19 				         |  					0.909091 				          |  					0.920454 				          |
 |  					20 				         |  					0.886363 				          |  					0.954545 				          |
 |  			**MÉDIA (DP)** 			|  			**0.886932(0.04)** 			|  			**0.938636 (0.02)** 			|
-
-![img](file:///tmp/lu60957cneqwv.tmp/lu60957cneqxu_tmp_a3921f638e34f10c.png)
 
 A diferença entre os classificadores é significativa. Portanto, rejeita-se Ho.
 
@@ -329,8 +312,6 @@ A diferença entre os classificadores é significativa. Portanto, rejeita-se Ho.
 |  					20 				         |  					0.886363 				          |  					0.943181 				          |
 |  			**MÉDIA (DP)** 			|  			**0.886932 (0.04)** 			|  			**0.737499 (0.03)** 			|
 
-![img](file:///tmp/lu60957cneqwv.tmp/lu60957cneqxu_tmp_e5fa3ecf68e41bec.png)
-
 A diferença entre os classificadores é significativa. Portanto, rejeita-se Ho.
 
 #### SVM X MLP
@@ -358,8 +339,6 @@ A diferença entre os classificadores é significativa. Portanto, rejeita-se Ho.
 |  					19 				         |  					0.920454 				          |  					0.875 				             |
 |  					20 				         |  					0.954545 				          |  					0.943181 				          |
 |  			**MÉDIA (DP)** 			|  			**0.938636 (0.02)** 			|  			**0.737499 (0.03)** 			|
-
-![img](file:///tmp/lu60957cneqwv.tmp/lu60957cneqxu_tmp_be540f020824d9b6.png)
 
 A diferença entre os classificadores é significativa. Portanto, rejeita-se Ho.
 
